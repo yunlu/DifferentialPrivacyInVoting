@@ -1,6 +1,5 @@
-# Differential Privacy In Voting
 
-Interesting functions:
+# Interesting functions:
 
 GenRandProfile(C, NumVotes) - C: #candidates, NumVotes: number of votes to generate
 - Generate a profile uniformly at random

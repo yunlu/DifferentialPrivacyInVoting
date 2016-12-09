@@ -2,11 +2,12 @@
 
 Interesting functions:
 
+GenRandProfile(C, NumVotes) - C: #candidates, NumVotes: number of votes to generate
+----- Generate a profile uniformly at random
+
 ===================================
     Random sampling method:
 ===================================
-GenRandProfile(C, NumVotes) - C: #candidates, NumVotes: number of votes to generate
------ Generate a profile uniformly at random
 
 BordaPlusRandom(C, V, N, gamma) - C: #candidates, V: a profile, N,gamma: parametres (calculated from epsilon)
 ----- Generate a winner according to the random sampling method (Lee, David T. "Efficient, private, and ε-strategyproof elicitation of tournament voting rules." Proceedings of the 24th International Conference on Artificial Intelligence. AAAI Press, 2015.)
